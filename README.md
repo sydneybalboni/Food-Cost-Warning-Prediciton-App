@@ -1,1 +1,1 @@
-# Food-Cost-Warning-Prediciton-App
+# Food-Cost-Warning-Prediction-App
