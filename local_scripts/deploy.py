@@ -1,13 +1,13 @@
 from flask import Flask, jsonify, request, session
 from flask_cors import CORS
-from dotenv import load_dotenv
 import openai  # Import the OpenAI library
 
 app = Flask(__name__)
 CORS(app)
 
-# Load .env file
-load_dotenv()
+# Replace 'your-openai-api-key' with your actual API key, preferably loading from environment variables
+with open('api_key.txt', 'r') as file:
+    openai.api_key = file.read().strip()
 
 chat_history = []
 

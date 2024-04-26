@@ -7,6 +7,9 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 websockets = "*"
+flask = "*"
+flask-cors = "*"
+openai = "*"
 
 [dev-packages]
 

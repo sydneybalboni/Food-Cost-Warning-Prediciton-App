@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Import your CSS file for styling
+import './App.css'; 
 import AnimatedTextDisplay from './AnimatedText.js';
 
 function Chatbot() {
