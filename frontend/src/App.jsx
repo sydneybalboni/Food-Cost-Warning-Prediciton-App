@@ -64,7 +64,7 @@ const sendMessage = async (input) => {
     scrollToBottom();
 
     try {
-        const response = await fetch('http://localhost:5001/api/send-message', {
+        const response = await fetch('http://localhost:8000/api/send-message', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
