@@ -3,9 +3,10 @@ This repo contains the code for deploying a chat-bot web application for interac
 ![Demo of Application](Application_Demo.gif)
 
 ## Installation and Documentation for Chatbot API
-### Installation Steps:
 
 ![AWS Implementation](aws.png)
+
+### Installation Steps:
 
 1. **Setting up EC2 Instance:**
     Launch an EC2 instance on AWS with appropriate configurations.
